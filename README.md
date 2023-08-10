@@ -22,8 +22,8 @@
 >* $ **./colorfull
 ****
 ## **Photos**
-![alt text](https://github.com/tarik-celik/colorfull/blob/main/Screenshot_20230810_234331_Termux.jpg)
-![alt text]()
+![alt text](https://github.com/tarik-celik/colorfull/blob/main/Ekran%20Görüntüsü%20-%202023-08-10%2023-46-38.xcf)
+![alt text](https://github.com/tarik-celik/colorfull/blob/main/Screenshot_20230810_234331_Termux.jpg )
 
 # Important note:
 ***I did not take any source code from any other software, all of it written by me.***
