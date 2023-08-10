@@ -33,11 +33,6 @@
 ![alt text](https://github.com/tarik-celik/colorfull/blob/main/screen-shot2.png)
 ![alt text](https://github.com/tarik-celik/colorfull/blob/main/screen-shot3.png)
 
-# **Colorfull without colors**
-**Well i dont have much to say for this.**
-**Not everyone has to like colors.**
-**But dont worry i have *'colorfull-without-colors'* or just colorless :)**
-
 # Important note:
 ***I did not take any source code from any other software, all of it written by me.***
 ***And relased under GPL 3.0 license (GNU GENERAL PUBLIC LICENSE 3.0)***
