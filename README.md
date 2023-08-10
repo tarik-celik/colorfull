@@ -31,7 +31,6 @@
 ## **Photos**
 ![alt text](https://github.com/tarik-celik/colorfull/blob/main/screen-shot1.png)
 ![alt text](https://github.com/tarik-celik/colorfull/blob/main/screen-shot2.png)
-![alt text](https://github.com/tarik-celik/colorfull/blob/main/screen-shot3.png)
 
 # Important note:
 ***I did not take any source code from any other software, all of it written by me.***
