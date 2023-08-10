@@ -15,18 +15,13 @@
 * [x] **Displaying CPU usage**
 * **(will add here more when later (maybe*)*
 ****
-## **Installing that program**
->* $ **git clone https://github.com/tarik-celik/colorfull.git**
->* $ **cd colorfull**
->* $ **sudo chmod +x install**
->* $ **sudo ./install**
-### if you dont have root permission just put to home folder and use from here
+# installation and usage
 >* $ **git clone https://github.com/tarik-celik/colorfull.git**
 >* $ **cd colorfull**
 >* $ **cd colorfull**
 >* $ **cd src**
->* $ **chmod +x colorfull (or colorfull-without-colors)**
->* $ cp colorfull (or colorfull-without-colors) ~
+>* $ **chmod +x colorfull
+>* $ **./colorfull
 ****
 ## **Photos**
 ![alt text](https://github.com/tarik-celik/colorfull/blob/main/screen-shot1.png)
@@ -34,4 +29,4 @@
 
 # Important note:
 ***I did not take any source code from any other software, all of it written by me.***
-***And relased under GPL 3.0 license (GNU GENERAL PUBLIC LICENSE 3.0)***
+***its relased under GPL 3.0 license (GNU GENERAL PUBLIC LICENSE 3.0)***
