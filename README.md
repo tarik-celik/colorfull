@@ -18,8 +18,6 @@
 # installation and usage
 >* $ **git clone https://github.com/tarik-celik/colorfull.git**
 >* $ **cd colorfull**
->* $ **cd colorfull**
->* $ **cd src**
 >* $ **chmod +x colorfull
 >* $ **./colorfull
 ****
