@@ -16,12 +16,12 @@
 * **(will add here more when later (maybe*)*
 ****
 ## **Installing that program**
->* $ **git clone https://github.com/tarikcelik32/colorfull.git**
+>* $ **git clone https://github.com/tarik-celik/colorfull.git**
 >* $ **cd colorfull**
 >* $ **sudo chmod +x install**
 >* $ **sudo ./install**
 ### if you dont have root permission just put to home folder and use from here
->* $ **git clone https://github.com/tarikcelik32/colorfull.git**
+>* $ **git clone https://github.com/tarik-celik/colorfull.git**
 >* $ **cd colorfull**
 >* $ **cd colorfull**
 >* $ **cd src**
@@ -29,9 +29,9 @@
 >* $ cp colorfull (or colorfull-without-colors) ~
 ****
 ## **Photos**
-![alt text](https://github.com/tarikcelik32/colorfull/blob/main/screen-shot1.png)
-![alt text](https://github.com/tarikcelik32/colorfull/blob/main/screen-shot2.png)
-![alt text](https://github.com/tarikcelik32/colorfull/blob/main/screen-shot3.png)
+![alt text](https://github.com/tarik-celik/colorfull/blob/main/screen-shot1.png)
+![alt text](https://github.com/tarik-celik/colorfull/blob/main/screen-shot2.png)
+![alt text](https://github.com/tarik-celik/colorfull/blob/main/screen-shot3.png)
 # **Story of name**
 **Actually this name dont have any meaning, i called it colorfull because it was colorfull.**
 **Then why its colorfull?**
