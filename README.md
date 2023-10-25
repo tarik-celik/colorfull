@@ -18,8 +18,8 @@
 # installation and usage
 >* $ **git clone https://github.com/tarik-celik/colorfull.git**
 >* $ **cd colorfull**
->* $ **chmod +x colorfull
->* $ **./colorfull
+>* $ **chmod +x colorfull**
+>* $ **./colorfull**
 ****
 ## **Photos**
 ![alt text](https://github.com/tarik-celik/colorfull/blob/main/Ekran%20Görüntüsü%20-%202023-08-10%2023-46-38.png)
