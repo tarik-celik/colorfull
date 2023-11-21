@@ -1,4 +1,7 @@
  'COLORFULL' system monitor app
+## **Photos**
+![alt text](https://github.com/tarik-celik/colorfull/blob/main/Screenshot_20231121_102110_Termux.jpg)
+ 
 ## **This script written for system monitoring, things that script can do:**
 - **Show your hostname and username**
 - **Shell you use**
@@ -14,11 +17,8 @@
 >* $ **cd colorfull**
 >* $ **chmod +x colorfull**
 >* $ **mv colorfull /usr/bin/bash/colorfull**
+>* $ **colorfull**
 ****
-
-## **Photos**
-![alt text]()
-
 # Important note:
 ***I did not take any source code from any other software, all of it written by me.***
 ***its relased under AGPL 3.0 license***
