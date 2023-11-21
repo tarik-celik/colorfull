@@ -10,7 +10,7 @@
 - **Your CPU architecture**
 - **Your uptime**
 - ***Displaying ram usage***
-- ***Displaying your ip adress***
+- **Displaying your ip adress**
 ****
 # installation and usage
 >* $ **git clone https://github.com/tarik-celik/colorfull.git**
