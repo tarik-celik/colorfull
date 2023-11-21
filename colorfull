@@ -1,3 +1,5 @@
+#!/usr/bin/bash
+
 #COLORS
 
 RED='\e[31m'
@@ -7,32 +9,28 @@ BLACK='\e[33m'
 PURPLE='\e[35m'
 CYAN='\e[36m'
 YELLOW='\e[1;33m'
-
 BOLD='\033[1m' #That not works on all terminals
-
 ENDCOLOR="\e[0m" # Resets color and more to default not always necessary but good a practice
 
 #Lets add some attributes to know what exactly people run this code using
 
 OS="$(uname -o)" #For operating system
-CA="$(uname -m)" #For Cpu architecture like ARM, X86, X86-64 etc
-Kernel="$(uname -s)" #For kernel
+CPU="$(uname -m)" #For Cpu architecture like ARM, X86, X86-64 etc                                                                    Kernel="$(uname -sr)" #For kernel
 UPTIME="$(uptime -p)"
 USER="$(whoami)"
 de="$(hostname)" #short for 'device name'
+ip="$(curl -s ifconfig.me)"
 # SHELL is literally $SHELL so we dont need re write it
 
-
+memory_info=$(free -h | awk '/^Mem:/ {print $3 "/" $2}')
 
 # -e used in echo function because that lets print fancy text with colors and more
-echo -e "${YELLOW}Operating system:${BOLD} $OS ${ENDCOLOR}"
-echo -e "${RED}Kernel:${BOLD} $Kernel  ${ENDCOLOR}"
-echo -e "${BLUE}Processor architecture:${BOLD} $CA ${ENDCOLOR}"
-echo -e "${PURPLE}Shell:${BOLD} $SHELL ${ENDCOLOR}"
-echo -e "${GREEN}Uptime:${BOLD} $UPTIME ${ENDCOLOR}"
-echo -e "${CYAN}Username:${BOLD}$USER ${ENDCOLOR}"
-echo -e "${PURPLE}Device name:${BOLD} $de ${RED}"
-free -t | awk 'NR == 2 {print "Current memory usage percent is : "$3/$2*100}'
-echo -ne "${YELLOW}${BOLD}"
-top -b -n1 | grep ^%Cpu | awk '{print("Current CPU usage percent is : "), 100-$8}'
-echo -ne "${ENDCOLOR}"
+
+echo -e "${CYAN}${BOLD}${de}@${USER}${ENDCOLOR}"
+echo -e "${PURPLE}${BOLD}Shell: $SHELL${ENDCOLOR}"
+echo -e "${YELLOW}${BOLD}OS: $OS ${ENDCOLOR}"
+echo -e "${RED}${BOLD}Kernel: $Kernel${ENDCOLOR}"
+echo -e "${BLUE}${BOLD}CPU architecture: $CPU ${ENDCOLOR}"
+echo -e "${GREEN}${BOLD}Uptime: $UPTIME ${ENDCOLOR}"
+echo -e "${PURPLE}${BOLD}RAM $memory_info ${ENDCOLOR}"
+echo -e "${CYAN}${BOLD}Ip: $ip ${ENDCOLOR}"
