@@ -19,6 +19,7 @@ UPTIME="$(uptime -p)"
 USER="$(whoami)"
 de="$(hostname)" #short for 'device name'
 ip="$(curl -s ifconfig.me)"
+Kernel="$(uname -rs)"
 # SHELL is literally $SHELL so we dont need re write it
 
 memory_info=$(free -h | awk '/^Mem:/ {print $3 "/" $2}')
