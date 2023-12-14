@@ -1,5 +1,3 @@
-#!/usr/bin/bash
-
 #COLORS
 
 RED='\e[31m'
