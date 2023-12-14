@@ -1,3 +1,5 @@
+#!/bin/sh
+
 #COLORS
 
 RED='\e[31m'
