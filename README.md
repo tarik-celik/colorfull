@@ -1,7 +1,7 @@
  'COLORFULL' system monitor app
 ## **Photos**
 ![alt text](https://github.com/tarik-celik/colorfull/blob/main/Screenshot_20231121_102110_Termux.jpg)
- 
+![alt text] ()
 ## **This script written for system monitoring, things that script can do:**
 - **Show your hostname and username**
 - **Shell you use**
