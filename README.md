@@ -6,7 +6,7 @@
 - **Show your hostname and username**
 - **Shell you use**
 - **OS you use**
-- **YOUR KERNEL**
+- **Your kernel**
 - **Your CPU architecture**
 - **Your uptime**
 - ***Displaying ram usage***
